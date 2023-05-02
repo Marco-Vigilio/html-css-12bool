@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white ;
+}
+
+/*flex*/
+
+.flex{
+    display: flex;
+}
+
+.flex-bet{
+    justify-content: space-between;
+}
+
+.flex-ar{
+    justify-content: space-around;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-al-cen{
+    align-items: center;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
