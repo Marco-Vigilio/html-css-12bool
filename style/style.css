@@ -34,13 +34,21 @@ section{
 /*selettore*/
 
 [class^="col"]{
-    flex: 0 0 auto; /*levo lo shrik e grow*/
     border: 2px solid white;
     padding: 2rem;
     text-align: center;
     background-color: #006CFA;
     color: white;
     font-size: .8rem;
+}
+
+.nested{
+    background-color: lime;
+    border: 2px #006CFA solid;
+}
+
+[class^="offset"]{
+    flex: 0 0 auto;
 }
 
 .col{
